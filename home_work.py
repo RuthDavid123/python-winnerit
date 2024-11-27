@@ -60,11 +60,48 @@
 # print(list[::2])
 # print(list[::-1])
 # #
-list1 = input()
-print(list1.lower())
-print(list1.upper())
-print(list1.capitalize())
-print(list1.title())
-words = list1.strip()
-print(words)
+# list1 = input()
+# print(list1.lower())
+# print(list1.upper())
+# print(list1.capitalize())
+# print(list1.title())
+# words = list1.strip()
+# print(words)
+# #
+# m = int(input())
+# if m <= 2000:
+#     print(m)
+# elif m > 2000:
+#     print(m * 0.87)
+# #
+# m = int(input())
+# s = "even" if m % 2 == 0 else "0dd"
+# print(s)
+# #
+# d = int(input())
+# match d:
+#     case "fraiday" | "manday":
+#         print("weekday")
+#     case "f" | "d":
+#         print("week")
+#     case _:
+#         print("no")
+# #
+# numbers = [20, 3, 15, 7, 12, 5]
+# for num in numbers:
+#     if num > 10:
+#         print(num)
+
+# #
+# numbers = int(input("press numbers"))
+# n = 0
+# s = 0
+# while numbers != "q":
+#     s += int(numbers)
+#     n += 1
+#     numbers = input("press numbers")
+# print(f"the average is: {s/n}")
+# print(n)
+# print(s)
+# #
 
